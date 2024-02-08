@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="KretaBasicSchoolSystem.Desktop.Views.Felhasznalo.FelhasznaloView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KretaBasicSchoolSystem.Desktop.Views.Felhasznalo"
+             xmlns:viewmodel="clr-namespace:KretaBasicSchoolSystem.Desktop.ViewModels.Felhasznalo"
+             d:DataContext="{d:DesignInstance Type=viewmodel:FelhasznaloViewModel, IsDesignTimeCreatable=True}"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <local:FelhasznaloMenuView Grid.Row="0"></local:FelhasznaloMenuView>
+        <ContentControl Grid.Row="1" Content="{Binding CurrentFelhasznaloChildView }"></ContentControl>
+    </Grid>
+</UserControl>

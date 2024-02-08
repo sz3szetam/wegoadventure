@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Views\Felhasznalo\AddUserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Felhasznalo\CalendarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Felhasznalo\FelhasznaloMenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Felhasznalo\FelhasznaloView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Felhasznalo\ModifyUserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Grades\ActualClassView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Grades\ClassesSchoolView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Grades\EndOfSemesterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Grades\EndOfYearView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Grades\GradesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Grades\GradesViewMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SchoolCitizens\ParentView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SchoolCitizens\TeacherView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Szalloda\AddNewEmployeeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Szalloda\DeleteEmployeeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Szalloda\SzallodaMenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Szalloda\SzallodaView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Felhasznalo\AddUserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Felhasznalo\CalendarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Felhasznalo\FelhasznaloMenuView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Felhasznalo\FelhasznaloView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Felhasznalo\ModifyUserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Grades\ActualClassView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Grades\ClassesSchoolView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Grades\EndOfSemesterView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Grades\EndOfYearView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Grades\GradesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Grades\GradesViewMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SchoolCitizens\ParentView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SchoolCitizens\TeacherView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Szalloda\AddNewEmployeeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Szalloda\DeleteEmployeeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Szalloda\SzallodaMenuView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Szalloda\SzallodaView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
